@@ -14,7 +14,10 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
-
-
+    
+    @IBAction func didTouchUpInsidePresentViewController(_ sender: UIButton) {
+        let hogeViewController = HogeViewController.instantiate()
+        self.present(hogeViewController, animated: true, completion: nil)
+    }
 }
 

@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D440036E2169A7D2000C40C7 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D440036D2169A7D2000C40C7 /* ViewModel.swift */; };
+		D44003702169AACF000C40C7 /* Instantiatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D440036F2169AACF000C40C7 /* Instantiatable.swift */; };
+		D44003FD2169B550000C40C7 /* SetupBoilerplatelessTemplate.sh in Resources */ = {isa = PBXBuildFile; fileRef = D44003D02169B550000C40C7 /* SetupBoilerplatelessTemplate.sh */; };
+		D440040D2169C141000C40C7 /* HogeViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D440040A2169C141000C40C7 /* HogeViewController.storyboard */; };
+		D440040E2169C141000C40C7 /* HogeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D440040B2169C141000C40C7 /* HogeViewController.swift */; };
+		D440040F2169C141000C40C7 /* HogeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D440040C2169C141000C40C7 /* HogeViewModel.swift */; };
 		D44C66E021688FD300E6A43D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44C66DF21688FD300E6A43D /* AppDelegate.swift */; };
 		D44C66E221688FD300E6A43D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44C66E121688FD300E6A43D /* ViewController.swift */; };
 		D44C66E521688FD300E6A43D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D44C66E321688FD300E6A43D /* Main.storyboard */; };
@@ -15,6 +21,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D440036D2169A7D2000C40C7 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		D440036F2169AACF000C40C7 /* Instantiatable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Instantiatable.swift; sourceTree = "<group>"; };
+		D44003D02169B550000C40C7 /* SetupBoilerplatelessTemplate.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = SetupBoilerplatelessTemplate.sh; sourceTree = "<group>"; };
+		D440040A2169C141000C40C7 /* HogeViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HogeViewController.storyboard; sourceTree = "<group>"; };
+		D440040B2169C141000C40C7 /* HogeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HogeViewController.swift; sourceTree = "<group>"; };
+		D440040C2169C141000C40C7 /* HogeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HogeViewModel.swift; sourceTree = "<group>"; };
 		D44C66DC21688FD300E6A43D /* BoilerplatelessSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BoilerplatelessSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D44C66DF21688FD300E6A43D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D44C66E121688FD300E6A43D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -35,6 +47,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D440031C216899E8000C40C7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D440040A2169C141000C40C7 /* HogeViewController.storyboard */,
+				D440040B2169C141000C40C7 /* HogeViewController.swift */,
+				D440040C2169C141000C40C7 /* HogeViewModel.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D44003782169B550000C40C7 /* BoilerplatelessTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				D44003D02169B550000C40C7 /* SetupBoilerplatelessTemplate.sh */,
+			);
+			path = BoilerplatelessTemplate;
+			sourceTree = "<group>";
+		};
 		D44C66D321688FD200E6A43D = {
 			isa = PBXGroup;
 			children = (
@@ -54,12 +84,16 @@
 		D44C66DE21688FD300E6A43D /* BoilerplatelessSample */ = {
 			isa = PBXGroup;
 			children = (
+				D44003782169B550000C40C7 /* BoilerplatelessTemplate */,
+				D440031C216899E8000C40C7 /* View */,
 				D44C66DF21688FD300E6A43D /* AppDelegate.swift */,
 				D44C66E121688FD300E6A43D /* ViewController.swift */,
 				D44C66E321688FD300E6A43D /* Main.storyboard */,
 				D44C66E621688FD700E6A43D /* Assets.xcassets */,
 				D44C66E821688FD700E6A43D /* LaunchScreen.storyboard */,
 				D44C66EB21688FD700E6A43D /* Info.plist */,
+				D440036D2169A7D2000C40C7 /* ViewModel.swift */,
+				D440036F2169AACF000C40C7 /* Instantiatable.swift */,
 			);
 			path = BoilerplatelessSample;
 			sourceTree = "<group>";
@@ -124,6 +158,8 @@
 			files = (
 				D44C66EA21688FD700E6A43D /* LaunchScreen.storyboard in Resources */,
 				D44C66E721688FD700E6A43D /* Assets.xcassets in Resources */,
+				D440040D2169C141000C40C7 /* HogeViewController.storyboard in Resources */,
+				D44003FD2169B550000C40C7 /* SetupBoilerplatelessTemplate.sh in Resources */,
 				D44C66E521688FD300E6A43D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -135,8 +171,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D440036E2169A7D2000C40C7 /* ViewModel.swift in Sources */,
+				D44003702169AACF000C40C7 /* Instantiatable.swift in Sources */,
 				D44C66E221688FD300E6A43D /* ViewController.swift in Sources */,
+				D440040F2169C141000C40C7 /* HogeViewModel.swift in Sources */,
 				D44C66E021688FD300E6A43D /* AppDelegate.swift in Sources */,
+				D440040E2169C141000C40C7 /* HogeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
