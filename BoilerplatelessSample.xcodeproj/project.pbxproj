@@ -13,6 +13,7 @@
 		D440040D2169C141000C40C7 /* HogeViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D440040A2169C141000C40C7 /* HogeViewController.storyboard */; };
 		D440040E2169C141000C40C7 /* HogeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D440040B2169C141000C40C7 /* HogeViewController.swift */; };
 		D440040F2169C141000C40C7 /* HogeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D440040C2169C141000C40C7 /* HogeViewModel.swift */; };
+		D44004112169C7DE000C40C7 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = D44004102169C7DE000C40C7 /* README.md */; };
 		D44C66E021688FD300E6A43D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44C66DF21688FD300E6A43D /* AppDelegate.swift */; };
 		D44C66E221688FD300E6A43D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44C66E121688FD300E6A43D /* ViewController.swift */; };
 		D44C66E521688FD300E6A43D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D44C66E321688FD300E6A43D /* Main.storyboard */; };
@@ -27,6 +28,7 @@
 		D440040A2169C141000C40C7 /* HogeViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HogeViewController.storyboard; sourceTree = "<group>"; };
 		D440040B2169C141000C40C7 /* HogeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HogeViewController.swift; sourceTree = "<group>"; };
 		D440040C2169C141000C40C7 /* HogeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HogeViewModel.swift; sourceTree = "<group>"; };
+		D44004102169C7DE000C40C7 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		D44C66DC21688FD300E6A43D /* BoilerplatelessSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BoilerplatelessSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D44C66DF21688FD300E6A43D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D44C66E121688FD300E6A43D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -94,6 +96,7 @@
 				D44C66EB21688FD700E6A43D /* Info.plist */,
 				D440036D2169A7D2000C40C7 /* ViewModel.swift */,
 				D440036F2169AACF000C40C7 /* Instantiatable.swift */,
+				D44004102169C7DE000C40C7 /* README.md */,
 			);
 			path = BoilerplatelessSample;
 			sourceTree = "<group>";
@@ -156,6 +159,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D44004112169C7DE000C40C7 /* README.md in Resources */,
 				D44C66EA21688FD700E6A43D /* LaunchScreen.storyboard in Resources */,
 				D44C66E721688FD700E6A43D /* Assets.xcassets in Resources */,
 				D440040D2169C141000C40C7 /* HogeViewController.storyboard in Resources */,
