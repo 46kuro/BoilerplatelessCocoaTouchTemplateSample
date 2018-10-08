@@ -1,6 +1,7 @@
 # Boilerplateless Sample
 ViewControllerを作成するときのテンプレートを作成するSample  
-ViewController作成時のボイラープレートを減らすことができます
+ViewController作成時のボイラープレートを減らすことができます  
+https://github.com/shinji-kurosawa/BoilerplatelessSample/blob/master/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%202018-10-08%208.37.52.png
 
 ***
 
