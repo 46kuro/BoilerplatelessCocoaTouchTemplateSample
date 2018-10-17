@@ -19,6 +19,11 @@
 		D44C66E521688FD300E6A43D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D44C66E321688FD300E6A43D /* Main.storyboard */; };
 		D44C66E721688FD700E6A43D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D44C66E621688FD700E6A43D /* Assets.xcassets */; };
 		D44C66EA21688FD700E6A43D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D44C66E821688FD700E6A43D /* LaunchScreen.storyboard */; };
+		D4593B47217733CC00E5FF52 /* HogeDefaultViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4593B45217733CC00E5FF52 /* HogeDefaultViewController.storyboard */; };
+		D4593B48217733CC00E5FF52 /* HogeDefaultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4593B46217733CC00E5FF52 /* HogeDefaultViewController.swift */; };
+		D4593B5C2177348100E5FF52 /* HogeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4593B582177348100E5FF52 /* HogeTableViewController.swift */; };
+		D4593B5D2177348100E5FF52 /* HogeTableViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4593B592177348100E5FF52 /* HogeTableViewController.storyboard */; };
+		D4593B5E2177348100E5FF52 /* HogeTableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4593B5A2177348100E5FF52 /* HogeTableViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +41,11 @@
 		D44C66E621688FD700E6A43D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D44C66E921688FD700E6A43D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D44C66EB21688FD700E6A43D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4593B45217733CC00E5FF52 /* HogeDefaultViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HogeDefaultViewController.storyboard; sourceTree = "<group>"; };
+		D4593B46217733CC00E5FF52 /* HogeDefaultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HogeDefaultViewController.swift; sourceTree = "<group>"; };
+		D4593B582177348100E5FF52 /* HogeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HogeTableViewController.swift; sourceTree = "<group>"; };
+		D4593B592177348100E5FF52 /* HogeTableViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HogeTableViewController.storyboard; sourceTree = "<group>"; };
+		D4593B5A2177348100E5FF52 /* HogeTableViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HogeTableViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,9 +62,8 @@
 		D440031C216899E8000C40C7 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				D440040A2169C141000C40C7 /* HogeViewController.storyboard */,
-				D440040B2169C141000C40C7 /* HogeViewController.swift */,
-				D440040C2169C141000C40C7 /* HogeViewModel.swift */,
+				D4593B49217733FC00E5FF52 /* TableViewController */,
+				D4593B32217732EA00E5FF52 /* ViewController */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -99,6 +108,60 @@
 				D44004102169C7DE000C40C7 /* README.md */,
 			);
 			path = BoilerplatelessSample;
+			sourceTree = "<group>";
+		};
+		D4593B32217732EA00E5FF52 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D4593B33217732EA00E5FF52 /* ViewModel */,
+				D4593B34217732EA00E5FF52 /* Default */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		D4593B33217732EA00E5FF52 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				D440040A2169C141000C40C7 /* HogeViewController.storyboard */,
+				D440040B2169C141000C40C7 /* HogeViewController.swift */,
+				D440040C2169C141000C40C7 /* HogeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		D4593B34217732EA00E5FF52 /* Default */ = {
+			isa = PBXGroup;
+			children = (
+				D4593B45217733CC00E5FF52 /* HogeDefaultViewController.storyboard */,
+				D4593B46217733CC00E5FF52 /* HogeDefaultViewController.swift */,
+			);
+			path = Default;
+			sourceTree = "<group>";
+		};
+		D4593B49217733FC00E5FF52 /* TableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D4593B4A217733FC00E5FF52 /* ViewModel */,
+				D4593B4B217733FC00E5FF52 /* Default */,
+			);
+			path = TableViewController;
+			sourceTree = "<group>";
+		};
+		D4593B4A217733FC00E5FF52 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				D4593B582177348100E5FF52 /* HogeTableViewController.swift */,
+				D4593B592177348100E5FF52 /* HogeTableViewController.storyboard */,
+				D4593B5A2177348100E5FF52 /* HogeTableViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		D4593B4B217733FC00E5FF52 /* Default */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Default;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -162,9 +225,11 @@
 				D44004112169C7DE000C40C7 /* README.md in Resources */,
 				D44C66EA21688FD700E6A43D /* LaunchScreen.storyboard in Resources */,
 				D44C66E721688FD700E6A43D /* Assets.xcassets in Resources */,
+				D4593B47217733CC00E5FF52 /* HogeDefaultViewController.storyboard in Resources */,
 				D440040D2169C141000C40C7 /* HogeViewController.storyboard in Resources */,
 				D44003FD2169B550000C40C7 /* SetupBoilerplatelessTemplate.sh in Resources */,
 				D44C66E521688FD300E6A43D /* Main.storyboard in Resources */,
+				D4593B5D2177348100E5FF52 /* HogeTableViewController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,10 +242,13 @@
 			files = (
 				D440036E2169A7D2000C40C7 /* ViewModel.swift in Sources */,
 				D44003702169AACF000C40C7 /* Instantiatable.swift in Sources */,
+				D4593B5C2177348100E5FF52 /* HogeTableViewController.swift in Sources */,
+				D4593B48217733CC00E5FF52 /* HogeDefaultViewController.swift in Sources */,
 				D44C66E221688FD300E6A43D /* ViewController.swift in Sources */,
 				D440040F2169C141000C40C7 /* HogeViewModel.swift in Sources */,
 				D44C66E021688FD300E6A43D /* AppDelegate.swift in Sources */,
 				D440040E2169C141000C40C7 /* HogeViewController.swift in Sources */,
+				D4593B5E2177348100E5FF52 /* HogeTableViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

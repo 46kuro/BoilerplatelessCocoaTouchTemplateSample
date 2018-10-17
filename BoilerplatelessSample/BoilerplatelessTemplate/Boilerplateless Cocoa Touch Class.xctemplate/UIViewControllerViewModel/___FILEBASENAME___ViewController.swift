@@ -9,12 +9,17 @@ final class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cocoaTouchSubclass___, I
 
     // MARK: IBOutlet
 
-    // MARK: LifeSycle
+    // MARK: Lifecycle
 
     override func viewDidLoad() {
         super.viewDidLoad()
     }
 
     // MARK: Function
+    static func instantiate(viewModel: ___VARIABLE_productName___ViewModel) -> ___FILEBASENAMEASIDENTIFIER___ {
+        let viewController = instantiate()
+        viewController.viewModel = viewModel
+        return viewController
+    }
 
 }

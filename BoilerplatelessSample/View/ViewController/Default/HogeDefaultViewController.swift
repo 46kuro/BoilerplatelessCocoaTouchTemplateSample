@@ -1,26 +1,25 @@
 //
-//  HogeViewController.swift
+//  HogeDefaultViewController.swift
 //  BoilerplatelessSample
 //
-//  Created by Shinji Kurosawa on 2018/10/07.
+//  Created by Shinji Kurosawa on 2018/10/17.
 //  Copyright © 2018 Shinji Kurosawa. All rights reserved.
 //
 
 import UIKit
 
-final class HogeViewController: UIViewController, Instantiatable {
+final class HogeDefaultViewController: UIViewController, Instantiatable {
 
     // MARK: Property
-    var viewModel: HogeViewModel?
 
     // MARK: IBOutlet
 
-    // MARK: LifeSycle
+    // MARK: Lifecycle
 
     override func viewDidLoad() {
         super.viewDidLoad()
     }
 
     // MARK: Function
-    
+
 }
