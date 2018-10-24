@@ -1,8 +1,14 @@
-//___FILEHEADER___
+//
+//  HogeTableViewCell.swift
+//  BoilerplatelessSample
+//
+//  Created by Shinji Kurosawa on 2018/10/24.
+//  Copyright © 2018 Shinji Kurosawa. All rights reserved.
+//
 
 import UIKit
 
-class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cocoaTouchSubclass___ {
+final class HogeTableViewCell: UITableViewCell {
 
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -14,5 +20,5 @@ class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cocoaTouchSubclass___ {
 
         // Configure the view for the selected state
     }
-    
+
 }

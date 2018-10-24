@@ -14,7 +14,7 @@ final class ___FILEBASENAMEASIDENTIFIER___: ViewModel {
     typealias Delegate = ___FILEBASENAMEASIDENTIFIER___Delegate
     typealias State = ___FILEBASENAMEASIDENTIFIER___State
     weak var delegate: Delegate
-    private(set) var state: State = .none
+    private(set) state: State = .none
 
     // MARK: Function
     init() { }

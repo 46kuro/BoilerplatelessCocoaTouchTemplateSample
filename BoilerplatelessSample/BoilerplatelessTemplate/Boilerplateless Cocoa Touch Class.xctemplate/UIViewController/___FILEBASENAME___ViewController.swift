@@ -4,11 +4,11 @@ import UIKit
 
 final class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cocoaTouchSubclass___, Instantiatable {
 
-    // MARK: Property
-
     // MARK: IBOutlet
 
-    // MARK: Lifecycle
+    // MARK: Property
+
+    // MARK: Life Cycle
 
     override func viewDidLoad() {
         super.viewDidLoad()

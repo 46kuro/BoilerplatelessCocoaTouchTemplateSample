@@ -10,12 +10,12 @@ import UIKit
 
 final class HogeTableViewController: UITableViewController {
 
+    // MARK: IBOutlet
+    
     // MARK: Property
     var viewModel: HogeTableViewModel?
 
-    // MARK: IBOutlet
-
-    // MARK: Lifecycle
+    // MARK: Life Cycle
 
     override func viewDidLoad() {
         super.viewDidLoad()

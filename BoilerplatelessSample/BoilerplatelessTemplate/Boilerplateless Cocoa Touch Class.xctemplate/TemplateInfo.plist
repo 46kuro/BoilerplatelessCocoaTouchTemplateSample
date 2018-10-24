@@ -53,19 +53,6 @@
 				<string>UICollectionViewCell</string>
 				<string>UICollectionReusableView</string>
 			</array>
-			<key>Suffixes</key>
-			<dict>
-				<key>UITableViewController</key>
-				<string>TableViewController</string>
-				<key>UITableViewCell</key>
-				<string>TableViewCell</string>
-				<key>UICollectionViewController</key>
-				<string>CollectionViewController</string>
-				<key>UICollectionViewCell</key>
-				<string>CollectionViewCell</string>
-				<key>UICollectionReusableView</key>
-				<string>CollectionReusableView</string>
-			</dict>
 		</dict>
 		<dict>
 			<key>Identifier</key>
